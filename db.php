@@ -1,10 +1,10 @@
 <?php
 
-$db['db_host'] = 'localhost';
-$db['db_user'] = 'root';
-$db['db_pass'] = '';
+$db['db_host'] = 'db4free.net';
+$db['db_user'] = 'disease';
+$db['db_pass'] = 'jicdisease';
 $db['db_name'] = 'disease';
-
+//server is db4free.net and the port is 3306
 foreach($db as $key => $value){
     define(strtoupper($key), $value);
 }
