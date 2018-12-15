@@ -1,6 +1,6 @@
 <?php
 
-$db['db_host'] = 'db4free.net';
+$db['db_host'] = '3306';
 $db['db_user'] = 'disease';
 $db['db_pass'] = 'jicdisease';
 $db['db_name'] = 'disease';
